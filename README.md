@@ -14,6 +14,7 @@
 
 #### 使用说明
 
+
 1.  目前生成的Controller，具备新增，修改，删除，条件查询，分页查询，单一详情
 2.  数据库表结构如果不具备乐观锁version，创建时间gmt_create，更新时间gmt_modified，逻辑删除deleted四个字段，请将datatables.isNormalize改为false
 3.  配置文件支持多表同时生成，需要逗号隔开
