@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hong.generate.generatedemo.demo.dao.InfRecDataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hong.generate.generatedemo.demo.entity.InfRecData">
+        <id column="ID" property="id" />
+        <result column="REC_DATA" property="recData" />
+        <result column="RES_DATA" property="resData" />
+        <result column="TURNON_OR_NOT" property="turnonOrNot" />
+        <result column="CREATER" property="creater" />
+        <result column="CREATE_DATE" property="createDate" />
+        <result column="UPDATER" property="updater" />
+        <result column="UPDATE_DATE" property="updateDate" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="REMARK" property="remark" />
+    </resultMap>
+
+</mapper>
